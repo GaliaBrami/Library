@@ -1,0 +1,14 @@
+C:\Users\hitmachut\Desktop\Library-main\Library-main\Library\obj\Debug\net6.0\Library.csproj.AssemblyReference.cache
+C:\Users\hitmachut\Desktop\Library-main\Library-main\Library\obj\Debug\net6.0\Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hitmachut\Desktop\Library-main\Library-main\Library\obj\Debug\net6.0\Library.AssemblyInfoInputs.cache
+C:\Users\hitmachut\Desktop\Library-main\Library-main\Library\obj\Debug\net6.0\Library.AssemblyInfo.cs
+C:\Users\hitmachut\Desktop\Library-main\Library-main\Library\obj\Debug\net6.0\Library.csproj.CoreCompileInputs.cache
+C:\Users\hitmachut\Desktop\Library-main\Library-main\Library\obj\Debug\net6.0\Library.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\hitmachut\Desktop\Library-main\Library-main\Library\obj\Debug\net6.0\Library.MvcApplicationPartsAssemblyInfo.cache
+E:\ו\.Net\1.1.24\Library-main\Library-main\Library\obj\Debug\net6.0\Library.csproj.AssemblyReference.cache
+E:\ו\.Net\1.1.24\Library-main\Library-main\Library\obj\Debug\net6.0\Library.GeneratedMSBuildEditorConfig.editorconfig
+E:\ו\.Net\1.1.24\Library-main\Library-main\Library\obj\Debug\net6.0\Library.AssemblyInfoInputs.cache
+E:\ו\.Net\1.1.24\Library-main\Library-main\Library\obj\Debug\net6.0\Library.AssemblyInfo.cs
+E:\ו\.Net\1.1.24\Library-main\Library-main\Library\obj\Debug\net6.0\Library.csproj.CoreCompileInputs.cache
+E:\ו\.Net\1.1.24\Library-main\Library-main\Library\obj\Debug\net6.0\Library.MvcApplicationPartsAssemblyInfo.cs
+E:\ו\.Net\1.1.24\Library-main\Library-main\Library\obj\Debug\net6.0\Library.MvcApplicationPartsAssemblyInfo.cache
