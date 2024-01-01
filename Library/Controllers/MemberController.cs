@@ -1,10 +1,11 @@
-﻿using Library.Entities;
+using Library.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using static System.Reflection.Metadata.BlobBuilder;
 using System.Linq;
 using Solid.Service;
 using System.Collections.Generic;
+using Solid.Core.Services;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -34,7 +35,7 @@ namespace Library.Controllers
         [HttpGet("{id}")]
         public ActionResult Get(int id)
         {
-            Member m = _memberService.GetAllMembers().Find(x => x.Id == id);
+            Member m = _memberService.GetAllMembers().FirstOrDefault(x => x.Id == id);
             if (m == null)
                 return NotFound();
             return Ok(m);
@@ -44,22 +45,24 @@ namespace Library.Controllers
         [HttpPost]
         public void Post([FromBody] Member value)
         {
-            _memberService.GetAllMembers().Add(new Member(value.Name, true, value.Tel));
+            _memberService.GetAllMembers().Append(new Member(value.Name, true, value.Tel));
         }
 
         // PUT api/<MembersController>/5
         [HttpPut("{id}")]
         public ActionResult Put(int id, [FromBody] Member value)
         {
-            Member m = _memberService.GetAllMembers().Find(x => x.Id == id);
+            Member m = _memberService.GetAllMembers().FirstOrDefault(x => x.Id == id);
             if (m == null)
                 return NotFound();
-            _memberService.GetAllMembers().Remove(m);
-            m.Name = value.Name;
+      IEnumerable<Member> bb = new List<Member>();
+      bb.Append(m);
+      _memberService.GetAllMembers().Except(bb);
+      m.Name = value.Name;
             m.Tel = value.Tel;
             m.Status = value.Status;
 
-            _memberService.GetAllMembers().Add(m);
+            _memberService.GetAllMembers().Append(m);
             return Ok();
 
         }
@@ -68,11 +71,13 @@ namespace Library.Controllers
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {
-            Member m = _memberService.GetAllMembers().Find(x => x.Id == id);
+            Member m = _memberService.GetAllMembers().FirstOrDefault(x => x.Id == id);
             if (m == null)
                 return NotFound();
-            _memberService.GetAllMembers().Remove(m);
-            return Ok();
+      IEnumerable<Member> bb = new List<Member>();
+      bb.Append(m);
+      _memberService.GetAllMembers().Except(bb);
+      return Ok();
         }
     }//[HttpPut("{id}/status")]
      //public ActionResult PutStatus(int id)

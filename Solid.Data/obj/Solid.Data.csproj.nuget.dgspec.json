@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ו\\.Net\\1.1.24\\Library-main\\Library-main\\Solid.Data\\Solid.Data.csproj": {}
+    "C:\\Users\\יונתן\\OneDrive\\שולחן העבודה\\1.1.24\\Library-main\\Solid.Data\\Solid.Data.csproj": {}
   },
   "projects": {
-    "E:\\ו\\.Net\\1.1.24\\Library-main\\Library-main\\Solid.Core\\Solid.Core.csproj": {
+    "C:\\Users\\יונתן\\OneDrive\\שולחן העבודה\\1.1.24\\Library-main\\Solid.Core\\Solid.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ו\\.Net\\1.1.24\\Library-main\\Library-main\\Solid.Core\\Solid.Core.csproj",
+        "projectUniqueName": "C:\\Users\\יונתן\\OneDrive\\שולחן העבודה\\1.1.24\\Library-main\\Solid.Core\\Solid.Core.csproj",
         "projectName": "Solid.Core",
-        "projectPath": "E:\\ו\\.Net\\1.1.24\\Library-main\\Library-main\\Solid.Core\\Solid.Core.csproj",
+        "projectPath": "C:\\Users\\יונתן\\OneDrive\\שולחן העבודה\\1.1.24\\Library-main\\Solid.Core\\Solid.Core.csproj",
         "packagesPath": "C:\\Users\\יונתן\\.nuget\\packages\\",
-        "outputPath": "E:\\ו\\.Net\\1.1.24\\Library-main\\Library-main\\Solid.Core\\obj\\",
+        "outputPath": "C:\\Users\\יונתן\\OneDrive\\שולחן העבודה\\1.1.24\\Library-main\\Solid.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -63,14 +63,14 @@
         }
       }
     },
-    "E:\\ו\\.Net\\1.1.24\\Library-main\\Library-main\\Solid.Data\\Solid.Data.csproj": {
+    "C:\\Users\\יונתן\\OneDrive\\שולחן העבודה\\1.1.24\\Library-main\\Solid.Data\\Solid.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ו\\.Net\\1.1.24\\Library-main\\Library-main\\Solid.Data\\Solid.Data.csproj",
+        "projectUniqueName": "C:\\Users\\יונתן\\OneDrive\\שולחן העבודה\\1.1.24\\Library-main\\Solid.Data\\Solid.Data.csproj",
         "projectName": "Solid.Data",
-        "projectPath": "E:\\ו\\.Net\\1.1.24\\Library-main\\Library-main\\Solid.Data\\Solid.Data.csproj",
+        "projectPath": "C:\\Users\\יונתן\\OneDrive\\שולחן העבודה\\1.1.24\\Library-main\\Solid.Data\\Solid.Data.csproj",
         "packagesPath": "C:\\Users\\יונתן\\.nuget\\packages\\",
-        "outputPath": "E:\\ו\\.Net\\1.1.24\\Library-main\\Library-main\\Solid.Data\\obj\\",
+        "outputPath": "C:\\Users\\יונתן\\OneDrive\\שולחן העבודה\\1.1.24\\Library-main\\Solid.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -91,8 +91,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\ו\\.Net\\1.1.24\\Library-main\\Library-main\\Solid.Core\\Solid.Core.csproj": {
-                "projectPath": "E:\\ו\\.Net\\1.1.24\\Library-main\\Library-main\\Solid.Core\\Solid.Core.csproj"
+              "C:\\Users\\יונתן\\OneDrive\\שולחן העבודה\\1.1.24\\Library-main\\Solid.Core\\Solid.Core.csproj": {
+                "projectPath": "C:\\Users\\יונתן\\OneDrive\\שולחן העבודה\\1.1.24\\Library-main\\Solid.Core\\Solid.Core.csproj"
               }
             }
           }

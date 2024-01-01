@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+73wgXXhe7ZEB9Sle7gS6xRlJsj7qgKX7IJkQW0ewnGY3vHxiyET7vXUbOj2yM/qpao3T/kWZSClNyAnrXWAtA==",
+  "dgSpecHash": "1IdxFBgkcLNf+fqj4J+HbZpxBsPnPY8OtRVYqBYwPSQwmPhkZpF3E9cx5Hte9g9coq8gyEGlXkzK3SEgZx+jMA==",
   "success": true,
-  "projectFilePath": "E:\\ו\\.Net\\1.1.24\\Library-main\\Library-main\\Solid.Data\\Solid.Data.csproj",
+  "projectFilePath": "C:\\Users\\יונתן\\OneDrive\\שולחן העבודה\\1.1.24\\Library-main\\Solid.Data\\Solid.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\יונתן\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\יונתן\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

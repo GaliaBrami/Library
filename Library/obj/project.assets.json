@@ -2452,11 +2452,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ו\\.Net\\1.1.24\\Library-main\\Library-main\\Library\\Library.csproj",
+      "projectUniqueName": "C:\\Users\\יונתן\\OneDrive\\שולחן העבודה\\1.1.24\\Library-main\\Library\\Library.csproj",
       "projectName": "Library",
-      "projectPath": "E:\\ו\\.Net\\1.1.24\\Library-main\\Library-main\\Library\\Library.csproj",
+      "projectPath": "C:\\Users\\יונתן\\OneDrive\\שולחן העבודה\\1.1.24\\Library-main\\Library\\Library.csproj",
       "packagesPath": "C:\\Users\\יונתן\\.nuget\\packages\\",
-      "outputPath": "E:\\ו\\.Net\\1.1.24\\Library-main\\Library-main\\Library\\obj\\",
+      "outputPath": "C:\\Users\\יונתן\\OneDrive\\שולחן העבודה\\1.1.24\\Library-main\\Library\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2477,14 +2477,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\ו\\.Net\\1.1.24\\Library-main\\Library-main\\Solid.Core\\Solid.Core.csproj": {
-              "projectPath": "E:\\ו\\.Net\\1.1.24\\Library-main\\Library-main\\Solid.Core\\Solid.Core.csproj"
+            "C:\\Users\\יונתן\\OneDrive\\שולחן העבודה\\1.1.24\\Library-main\\Solid.Core\\Solid.Core.csproj": {
+              "projectPath": "C:\\Users\\יונתן\\OneDrive\\שולחן העבודה\\1.1.24\\Library-main\\Solid.Core\\Solid.Core.csproj"
             },
-            "E:\\ו\\.Net\\1.1.24\\Library-main\\Library-main\\Solid.Data\\Solid.Data.csproj": {
-              "projectPath": "E:\\ו\\.Net\\1.1.24\\Library-main\\Library-main\\Solid.Data\\Solid.Data.csproj"
+            "C:\\Users\\יונתן\\OneDrive\\שולחן העבודה\\1.1.24\\Library-main\\Solid.Data\\Solid.Data.csproj": {
+              "projectPath": "C:\\Users\\יונתן\\OneDrive\\שולחן העבודה\\1.1.24\\Library-main\\Solid.Data\\Solid.Data.csproj"
             },
-            "E:\\ו\\.Net\\1.1.24\\Library-main\\Library-main\\Solid.Service\\Solid.Service.csproj": {
-              "projectPath": "E:\\ו\\.Net\\1.1.24\\Library-main\\Library-main\\Solid.Service\\Solid.Service.csproj"
+            "C:\\Users\\יונתן\\OneDrive\\שולחן העבודה\\1.1.24\\Library-main\\Solid.Service\\Solid.Service.csproj": {
+              "projectPath": "C:\\Users\\יונתן\\OneDrive\\שולחן העבודה\\1.1.24\\Library-main\\Solid.Service\\Solid.Service.csproj"
             }
           }
         }

@@ -1,4 +1,4 @@
-﻿using Library.Entities;
+using Library.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Solid.Service;
@@ -42,23 +42,25 @@ namespace Library.Controllers
         [HttpPost]
         public void Post([FromBody] Book b)
         {
-            _bookService.GetAllBooks().Add(new Book(b.Title, b.Author, b.Description, true));
+            _bookService.GetAllBooks().Append(new Book(b.Title, b.Author, b.Description, true));
         }
 
         // PUT api/<BooksController>/5
         [HttpPut("{id}")]
         public ActionResult Put(int id, [FromBody] Book value)
         {
-            Book b = _bookService.GetAllBooks().Find(x => x.Id == id);
+            Book b = _bookService.GetAllBooks().FirstOrDefault(x => x.Id == id);
             if (b == null)
                 return NotFound();
-            _bookService.GetAllBooks().Remove(b);
+            IEnumerable<Book>bb=new List<Book>();
+            bb.Append(b);
+            _bookService.GetAllBooks().Except(bb);
 
             b.Status = value.Status;
             b.Author = value.Author;
             b.Title = value.Title;
             b.Description = value.Description;
-            _bookService.GetAllBooks().Add(b);
+            _bookService.GetAllBooks().Append(b);
             return Ok();
 
         }
@@ -66,12 +68,14 @@ namespace Library.Controllers
         [HttpPut("{id}/status")]
         public ActionResult PutStatus(int id)
         {
-            Book b = _bookService.GetAllBooks().Find(x => x.Id == id);
+            Book b = _bookService.GetAllBooks().FirstOrDefault(x => x.Id == id);
             if (b == null)
                 return NotFound();
-            _bookService.GetAllBooks().Remove(b);
-            b.Status = !b.Status;
-            _bookService.GetAllBooks().Add(b);
+      IEnumerable<Book> bb = new List<Book>();
+      bb.Append(b);
+      _bookService.GetAllBooks().Except(bb);
+      b.Status = !b.Status;
+            _bookService.GetAllBooks().Append(b);
             return Ok();
 
         }
@@ -79,12 +83,14 @@ namespace Library.Controllers
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {
-            Book b = _bookService.GetAllBooks().Find(x => x.Id == id);
+            Book b = _bookService.GetAllBooks().FirstOrDefault(x => x.Id == id);
             if (b == null)
                 return NotFound();
-            _bookService.GetAllBooks().Remove(b);
+      IEnumerable<Book> bb = new List<Book>();
+      bb.Append(b);
+      _bookService.GetAllBooks().Except(bb);
 
-            return Ok();
+      return Ok();
         }
     }
 }

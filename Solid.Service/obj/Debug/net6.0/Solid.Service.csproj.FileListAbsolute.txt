@@ -43,3 +43,33 @@ E:\ו\.Net\1.1.24\Library-main\Library-main\Solid.Service\obj\Debug\net6.0\Solid
 E:\ו\.Net\1.1.24\Library-main\Library-main\Solid.Service\obj\Debug\net6.0\refint\Solid.Service.dll
 E:\ו\.Net\1.1.24\Library-main\Library-main\Solid.Service\obj\Debug\net6.0\Solid.Service.pdb
 E:\ו\.Net\1.1.24\Library-main\Library-main\Solid.Service\obj\Debug\net6.0\ref\Solid.Service.dll
+C:\Users\יונתן\OneDrive\שולחן העבודה\‏‏תיקיה חדשה\Library-main\Solid.Service\bin\Debug\net6.0\Solid.Service.deps.json
+C:\Users\יונתן\OneDrive\שולחן העבודה\‏‏תיקיה חדשה\Library-main\Solid.Service\bin\Debug\net6.0\Solid.Service.dll
+C:\Users\יונתן\OneDrive\שולחן העבודה\‏‏תיקיה חדשה\Library-main\Solid.Service\bin\Debug\net6.0\Solid.Service.pdb
+C:\Users\יונתן\OneDrive\שולחן העבודה\‏‏תיקיה חדשה\Library-main\Solid.Service\bin\Debug\net6.0\Solid.Core.dll
+C:\Users\יונתן\OneDrive\שולחן העבודה\‏‏תיקיה חדשה\Library-main\Solid.Service\bin\Debug\net6.0\Solid.Core.pdb
+C:\Users\יונתן\OneDrive\שולחן העבודה\‏‏תיקיה חדשה\Library-main\Solid.Service\obj\Debug\net6.0\Solid.Service.csproj.AssemblyReference.cache
+C:\Users\יונתן\OneDrive\שולחן העבודה\‏‏תיקיה חדשה\Library-main\Solid.Service\obj\Debug\net6.0\Solid.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\יונתן\OneDrive\שולחן העבודה\‏‏תיקיה חדשה\Library-main\Solid.Service\obj\Debug\net6.0\Solid.Service.AssemblyInfoInputs.cache
+C:\Users\יונתן\OneDrive\שולחן העבודה\‏‏תיקיה חדשה\Library-main\Solid.Service\obj\Debug\net6.0\Solid.Service.AssemblyInfo.cs
+C:\Users\יונתן\OneDrive\שולחן העבודה\‏‏תיקיה חדשה\Library-main\Solid.Service\obj\Debug\net6.0\Solid.Service.csproj.CoreCompileInputs.cache
+C:\Users\יונתן\OneDrive\שולחן העבודה\‏‏תיקיה חדשה\Library-main\Solid.Service\obj\Debug\net6.0\Solid.Service.csproj.CopyComplete
+C:\Users\יונתן\OneDrive\שולחן העבודה\‏‏תיקיה חדשה\Library-main\Solid.Service\obj\Debug\net6.0\Solid.Service.dll
+C:\Users\יונתן\OneDrive\שולחן העבודה\‏‏תיקיה חדשה\Library-main\Solid.Service\obj\Debug\net6.0\refint\Solid.Service.dll
+C:\Users\יונתן\OneDrive\שולחן העבודה\‏‏תיקיה חדשה\Library-main\Solid.Service\obj\Debug\net6.0\Solid.Service.pdb
+C:\Users\יונתן\OneDrive\שולחן העבודה\‏‏תיקיה חדשה\Library-main\Solid.Service\obj\Debug\net6.0\ref\Solid.Service.dll
+C:\Users\יונתן\OneDrive\שולחן העבודה\1.1.24\Library-main\Solid.Service\bin\Debug\net6.0\Solid.Service.deps.json
+C:\Users\יונתן\OneDrive\שולחן העבודה\1.1.24\Library-main\Solid.Service\bin\Debug\net6.0\Solid.Service.dll
+C:\Users\יונתן\OneDrive\שולחן העבודה\1.1.24\Library-main\Solid.Service\bin\Debug\net6.0\Solid.Service.pdb
+C:\Users\יונתן\OneDrive\שולחן העבודה\1.1.24\Library-main\Solid.Service\bin\Debug\net6.0\Solid.Core.dll
+C:\Users\יונתן\OneDrive\שולחן העבודה\1.1.24\Library-main\Solid.Service\bin\Debug\net6.0\Solid.Core.pdb
+C:\Users\יונתן\OneDrive\שולחן העבודה\1.1.24\Library-main\Solid.Service\obj\Debug\net6.0\Solid.Service.csproj.AssemblyReference.cache
+C:\Users\יונתן\OneDrive\שולחן העבודה\1.1.24\Library-main\Solid.Service\obj\Debug\net6.0\Solid.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\יונתן\OneDrive\שולחן העבודה\1.1.24\Library-main\Solid.Service\obj\Debug\net6.0\Solid.Service.AssemblyInfoInputs.cache
+C:\Users\יונתן\OneDrive\שולחן העבודה\1.1.24\Library-main\Solid.Service\obj\Debug\net6.0\Solid.Service.AssemblyInfo.cs
+C:\Users\יונתן\OneDrive\שולחן העבודה\1.1.24\Library-main\Solid.Service\obj\Debug\net6.0\Solid.Service.csproj.CoreCompileInputs.cache
+C:\Users\יונתן\OneDrive\שולחן העבודה\1.1.24\Library-main\Solid.Service\obj\Debug\net6.0\Solid.Service.csproj.CopyComplete
+C:\Users\יונתן\OneDrive\שולחן העבודה\1.1.24\Library-main\Solid.Service\obj\Debug\net6.0\Solid.Service.dll
+C:\Users\יונתן\OneDrive\שולחן העבודה\1.1.24\Library-main\Solid.Service\obj\Debug\net6.0\refint\Solid.Service.dll
+C:\Users\יונתן\OneDrive\שולחן העבודה\1.1.24\Library-main\Solid.Service\obj\Debug\net6.0\Solid.Service.pdb
+C:\Users\יונתן\OneDrive\שולחן העבודה\1.1.24\Library-main\Solid.Service\obj\Debug\net6.0\ref\Solid.Service.dll
