@@ -32,7 +32,7 @@ namespace Library.Controllers
         [HttpGet("{id}")]
         public ActionResult Get(int id)
         {
-            Book b = _bookService.GetAllBooks().FirstOrDefault(x => x.Id == id);
+            Book b = _bookService.GetById(id);
             if (b == null)
                 return NotFound();
             return Ok(b);
@@ -40,57 +40,40 @@ namespace Library.Controllers
 
         // POST api/<BooksController>
         [HttpPost]
-        public void Post([FromBody] Book b)
+        public ActionResult Post([FromBody] Book b)
         {
-            _bookService.GetAllBooks().Append(new Book(b.Title, b.Author, b.Description, true));
+            return Ok(_bookService.Add(b));
         }
 
         // PUT api/<BooksController>/5
         [HttpPut("{id}")]
         public ActionResult Put(int id, [FromBody] Book value)
         {
-            Book b = _bookService.GetAllBooks().FirstOrDefault(x => x.Id == id);
+            Book b = _bookService.GetById(id);
             if (b == null)
                 return NotFound();
-            IEnumerable<Book>bb=new List<Book>();
-            bb.Append(b);
-            _bookService.GetAllBooks().Except(bb);
-
-            b.Status = value.Status;
-            b.Author = value.Author;
-            b.Title = value.Title;
-            b.Description = value.Description;
-            _bookService.GetAllBooks().Append(b);
-            return Ok();
+           
+            return Ok( _bookService.Put(id,value));
 
         }
         // PUT api/<BooksController>/5
         [HttpPut("{id}/status")]
         public ActionResult PutStatus(int id)
         {
-            Book b = _bookService.GetAllBooks().FirstOrDefault(x => x.Id == id);
+            Book b = _bookService.GetById(id);
             if (b == null)
                 return NotFound();
-      IEnumerable<Book> bb = new List<Book>();
-      bb.Append(b);
-      _bookService.GetAllBooks().Except(bb);
-      b.Status = !b.Status;
-            _bookService.GetAllBooks().Append(b);
-            return Ok();
+            return Ok( _bookService.PutStatus(id));
 
         }
         // DELETE api/<BooksController>/5
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {
-            Book b = _bookService.GetAllBooks().FirstOrDefault(x => x.Id == id);
+            Book b = _bookService.GetById(id);
             if (b == null)
                 return NotFound();
-      IEnumerable<Book> bb = new List<Book>();
-      bb.Append(b);
-      _bookService.GetAllBooks().Except(bb);
-
-      return Ok();
+            return Ok(_bookService.Delete(id));
         }
     }
 }

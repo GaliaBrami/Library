@@ -11,5 +11,16 @@ namespace Solid.Core.Repositories
     {
         public List<Book> GetBooks();
 
+        public Book GetById(int id)
+      ;
+
+        public Book Add(Book Book);
+       // public Book Post(Book b);
+
+        public Book Put(int id, Book value);
+
+        public Book PutStatus(int id);
+        public Book Delete(int id);
+
     }
 }

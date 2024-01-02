@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tVOPXkCYeq1McpaebMkznJp2EMi39NdR1t7q05VFY3X7ylqFy5+44ldAHJ9lOrvIsSyjJOTZqscv1szMhis42Q==",
+  "dgSpecHash": "x+gzzsxm3tfLZOL6Re+vJL0VFWk4T+IQuQqaTwcC81DaxuaaTj7fxtw7vmBiVpZqTToBmkbXkmnZnCgi7CYh+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\יונתן\\OneDrive\\שולחן העבודה\\1.1.24\\Library-main\\Library\\Library.csproj",
+  "projectFilePath": "E:\\1.1.24\\Library\\Library\\Library.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\יונתן\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\יונתן\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

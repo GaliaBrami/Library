@@ -17,11 +17,36 @@ namespace Solid.Service
         {
             _borrowRepository = borrowRepository;
         }
-     
+        public Borrow Add(Borrow b)
+        {
+            return _borrowRepository.Add(b);
+        }
 
         public IEnumerable<Borrow> GetAllBorrows()
         {
             return _borrowRepository.GetBorrows();
+        }
+        public Borrow GetById(int id)
+        {
+            return _borrowRepository.GetById(id);
+        }
+
+        public Borrow Put(int id, Borrow value)
+        {
+            return _borrowRepository.Put(id, value);
+
+
+        }
+
+        public Borrow PutStatus(int id)
+        {
+
+            return _borrowRepository.PutStatus(id);
+        }
+
+        public Borrow Delete(int id)
+        {
+            return _borrowRepository.Delete(id);
         }
     }
 }

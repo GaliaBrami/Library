@@ -58,3 +58,15 @@ C:\Users\יונתן\OneDrive\שולחן העבודה\1.1.24\Library-main\Solid.C
 C:\Users\יונתן\OneDrive\שולחן העבודה\1.1.24\Library-main\Solid.Core\obj\Debug\net6.0\refint\Solid.Core.dll
 C:\Users\יונתן\OneDrive\שולחן העבודה\1.1.24\Library-main\Solid.Core\obj\Debug\net6.0\Solid.Core.pdb
 C:\Users\יונתן\OneDrive\שולחן העבודה\1.1.24\Library-main\Solid.Core\obj\Debug\net6.0\ref\Solid.Core.dll
+Y:\Groups\Group_1\ברמי  גליה\דוטנט\1.1.24\Library\Solid.Core\bin\Debug\net6.0\Solid.Core.deps.json
+Y:\Groups\Group_1\ברמי  גליה\דוטנט\1.1.24\Library\Solid.Core\bin\Debug\net6.0\Solid.Core.dll
+Y:\Groups\Group_1\ברמי  גליה\דוטנט\1.1.24\Library\Solid.Core\bin\Debug\net6.0\Solid.Core.pdb
+Y:\Groups\Group_1\ברמי  גליה\דוטנט\1.1.24\Library\Solid.Core\obj\Debug\net6.0\Solid.Core.csproj.AssemblyReference.cache
+Y:\Groups\Group_1\ברמי  גליה\דוטנט\1.1.24\Library\Solid.Core\obj\Debug\net6.0\Solid.Core.GeneratedMSBuildEditorConfig.editorconfig
+Y:\Groups\Group_1\ברמי  גליה\דוטנט\1.1.24\Library\Solid.Core\obj\Debug\net6.0\Solid.Core.AssemblyInfoInputs.cache
+Y:\Groups\Group_1\ברמי  גליה\דוטנט\1.1.24\Library\Solid.Core\obj\Debug\net6.0\Solid.Core.AssemblyInfo.cs
+Y:\Groups\Group_1\ברמי  גליה\דוטנט\1.1.24\Library\Solid.Core\obj\Debug\net6.0\Solid.Core.csproj.CoreCompileInputs.cache
+Y:\Groups\Group_1\ברמי  גליה\דוטנט\1.1.24\Library\Solid.Core\obj\Debug\net6.0\Solid.Core.dll
+Y:\Groups\Group_1\ברמי  גליה\דוטנט\1.1.24\Library\Solid.Core\obj\Debug\net6.0\refint\Solid.Core.dll
+Y:\Groups\Group_1\ברמי  גליה\דוטנט\1.1.24\Library\Solid.Core\obj\Debug\net6.0\Solid.Core.pdb
+Y:\Groups\Group_1\ברמי  גליה\דוטנט\1.1.24\Library\Solid.Core\obj\Debug\net6.0\ref\Solid.Core.dll

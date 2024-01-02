@@ -32,7 +32,7 @@ namespace Library.Controllers
         [HttpGet("{id}")]
         public ActionResult Get(int id)
         {
-            Borrow b = _borrowService.GetAllBorrows().FirstOrDefault(x => x.Id == id);
+            Borrow b = _borrowService.GetById(id);
             if (b == null)
                 return NotFound();
             return Ok(b);
@@ -40,44 +40,39 @@ namespace Library.Controllers
 
         // POST api/<BorrowsController>
         [HttpPost]
-        public void Post([FromBody] Borrow value)
+        public ActionResult Post([FromBody] Borrow value)
         {
 
-            _borrowService.GetAllBorrows().Append(new Borrow(value.MemberId, value.BookId, true));
+            return Ok(_borrowService.Add(value));
         }
 
         // PUT api/<BorrowsController>/5
         [HttpPut("{id}")]
         public ActionResult Put(int id, [FromBody] Borrow value)
         {
-            Borrow b = _borrowService.GetAllBorrows().FirstOrDefault(x => x.Id == id);
+            Borrow b = _borrowService.GetById(id);
             if (b == null)
                 return NotFound();
-      IEnumerable<Borrow> bb = new List<Borrow>();
-      bb.Append(b);
-      _borrowService.GetAllBorrows().Except(bb);
-
-      b.MemberId = value.MemberId;
-            b.BookId = value.BookId;
-            b.Status = value.Status;
-            _borrowService.GetAllBorrows().Append(b);
-            return Ok();
+          //b.MemberId = value.MemberId;
+          //  b.BookId = value.BookId;
+          //  b.Status = value.Status;
+           // _borrowService.GetAllBorrows().Append(b);
+            return Ok(_borrowService.Put(id,value));
 
         }
         // PUT api/<BorrowsController>/5
         [HttpPut("{id}/status")]
         public ActionResult PutStats(int id)
         {
-            Borrow b = _borrowService.GetAllBorrows().FirstOrDefault(x => x.Id == id);
-
+            Borrow b = _borrowService.GetById(id);
             if (b == null)
                 return NotFound();
-      IEnumerable<Borrow> bb = new List<Borrow>();
-      bb.Append(b);
-      _borrowService.GetAllBorrows().Except(bb);
-      b.Status = !b.Status;
-            _borrowService.GetAllBorrows().Append(b);
-            return Ok();
+            //b.MemberId = value.MemberId;
+            //  b.BookId = value.BookId;
+            //  b.Status = value.Status;
+            // _borrowService.GetAllBorrows().Append(b);
+            return Ok(_borrowService.PutStatus(id));
+            
 
 
         }

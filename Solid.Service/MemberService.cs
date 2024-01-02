@@ -16,10 +16,35 @@ namespace Solid.Service
         {
             _memberRepository = memberRepository;
         }
-
+        public Member Add(Member b)
+        {
+            return _memberRepository.Add(b);
+        }
         public IEnumerable<Member> GetAllMembers()
         {
             return _memberRepository.GetMembers();
+        }
+        public Member GetById(int id)
+        {
+            return _memberRepository.GetById(id);
+        }
+
+        public Member Put(int id, Member value)
+        {
+            return _memberRepository.Put(id, value);
+
+
+        }
+
+        public Member PutStatus(int id)
+        {
+
+            return _memberRepository.PutStatus(id);
+        }
+
+        public Member Delete(int id)
+        {
+            return _memberRepository.Delete(id);
         }
     }
 }

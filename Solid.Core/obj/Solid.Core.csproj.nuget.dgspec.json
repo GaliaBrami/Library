@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\יונתן\\OneDrive\\שולחן העבודה\\1.1.24\\Library-main\\Solid.Core\\Solid.Core.csproj": {}
+    "E:\\1.1.24\\Library\\Solid.Core\\Solid.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\יונתן\\OneDrive\\שולחן העבודה\\1.1.24\\Library-main\\Solid.Core\\Solid.Core.csproj": {
+    "E:\\1.1.24\\Library\\Solid.Core\\Solid.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\יונתן\\OneDrive\\שולחן העבודה\\1.1.24\\Library-main\\Solid.Core\\Solid.Core.csproj",
+        "projectUniqueName": "E:\\1.1.24\\Library\\Solid.Core\\Solid.Core.csproj",
         "projectName": "Solid.Core",
-        "projectPath": "C:\\Users\\יונתן\\OneDrive\\שולחן העבודה\\1.1.24\\Library-main\\Solid.Core\\Solid.Core.csproj",
+        "projectPath": "E:\\1.1.24\\Library\\Solid.Core\\Solid.Core.csproj",
         "packagesPath": "C:\\Users\\יונתן\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\יונתן\\OneDrive\\שולחן העבודה\\1.1.24\\Library-main\\Solid.Core\\obj\\",
+        "outputPath": "E:\\1.1.24\\Library\\Solid.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

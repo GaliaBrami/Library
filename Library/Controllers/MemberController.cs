@@ -35,7 +35,7 @@ namespace Library.Controllers
         [HttpGet("{id}")]
         public ActionResult Get(int id)
         {
-            Member m = _memberService.GetAllMembers().FirstOrDefault(x => x.Id == id);
+            Member m = _memberService.GetById(id);
             if (m == null)
                 return NotFound();
             return Ok(m);
@@ -52,18 +52,16 @@ namespace Library.Controllers
         [HttpPut("{id}")]
         public ActionResult Put(int id, [FromBody] Member value)
         {
-            Member m = _memberService.GetAllMembers().FirstOrDefault(x => x.Id == id);
+            Member m = _memberService.GetById(id);
             if (m == null)
                 return NotFound();
-      IEnumerable<Member> bb = new List<Member>();
-      bb.Append(m);
-      _memberService.GetAllMembers().Except(bb);
-      m.Name = value.Name;
-            m.Tel = value.Tel;
-            m.Status = value.Status;
+            
+            //m.Name = value.Name;
+            //m.Tel = value.Tel;
+            //m.Status = value.Status;
 
-            _memberService.GetAllMembers().Append(m);
-            return Ok();
+            //_memberService.GetAllMembers().Append(m);
+            return Ok(_memberService.Put(id,value););
 
         }
 
@@ -71,13 +69,11 @@ namespace Library.Controllers
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {
-            Member m = _memberService.GetAllMembers().FirstOrDefault(x => x.Id == id);
+            Member m = _memberService.GetById( id);
             if (m == null)
                 return NotFound();
-      IEnumerable<Member> bb = new List<Member>();
-      bb.Append(m);
-      _memberService.GetAllMembers().Except(bb);
-      return Ok();
+      
+      return Ok(_memberService.Delete(id););
         }
     }//[HttpPut("{id}/status")]
      //public ActionResult PutStatus(int id)
