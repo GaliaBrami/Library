@@ -53,10 +53,7 @@ namespace Library.Controllers
             Borrow b = _borrowService.GetById(id);
             if (b == null)
                 return NotFound();
-          //b.MemberId = value.MemberId;
-          //  b.BookId = value.BookId;
-          //  b.Status = value.Status;
-           // _borrowService.GetAllBorrows().Append(b);
+         
             return Ok(_borrowService.Put(id,value));
 
         }
@@ -66,21 +63,13 @@ namespace Library.Controllers
         {
             Borrow b = _borrowService.GetById(id);
             if (b == null)
-                return NotFound();
-            //b.MemberId = value.MemberId;
-            //  b.BookId = value.BookId;
-            //  b.Status = value.Status;
-            // _borrowService.GetAllBorrows().Append(b);
+                return NotFound();         
             return Ok(_borrowService.PutStatus(id));
             
 
 
         }
 
-        //// DELETE api/<BorrowsController>/5
-        //[HttpDelete("{id}")]
-        //public void Delete(int id)
-        //{
-        //}
+      
     }
 }

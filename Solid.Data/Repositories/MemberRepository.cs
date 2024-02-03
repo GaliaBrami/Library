@@ -31,13 +31,15 @@ namespace Solid.Data.Repositories
 
         public Member Put(int id, Member value)
         {
-            Member member = _context.Members.Find(id);
-            //book.Status = value.Status;
-            //book.Author = value.Author;
-            //book.Title = value.Title;
-            //book.Description = value.Description;
+            Member m = _context.Members.Find(id);
+            if (m != null)
+            {
+                m.Name = value.Name;
+                m.Tel = value.Tel;
+                m.Status = value.Status;
+            }
             _context.SaveChanges();
-            return member;
+            return m;
 
         }
 
@@ -53,7 +55,8 @@ namespace Solid.Data.Repositories
         public Member Delete(int id)
         {
             Member m = _context.Members.Find(id);
-            _context.Members.Remove(m);
+            if (m != null)
+                _context.Members.Remove(m);
             _context.SaveChanges();
             return m;
         }

@@ -8,7 +8,8 @@ using System.Collections.Generic;
 using Solid.Core.Services;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
+//לקוח יכול לשאול ספר כמה פעמים!
+//בגלל זה לא צריך מפתח יחודי של ספר  ומשאיל
 namespace Library.Controllers
 {
     [Route("api/[controller]")]
@@ -61,7 +62,7 @@ namespace Library.Controllers
             //m.Status = value.Status;
 
             //_memberService.GetAllMembers().Append(m);
-            return Ok(_memberService.Put(id,value););
+            return Ok(_memberService.Put(id,value));
 
         }
 
@@ -73,7 +74,7 @@ namespace Library.Controllers
             if (m == null)
                 return NotFound();
       
-      return Ok(_memberService.Delete(id););
+      return Ok(_memberService.Delete(id));
         }
     }//[HttpPut("{id}/status")]
      //public ActionResult PutStatus(int id)

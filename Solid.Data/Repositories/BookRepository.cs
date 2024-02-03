@@ -29,15 +29,18 @@ namespace Solid.Data.Repositories
             _context.SaveChanges();
             return Book;
         }
-      
+
 
         public Book Put(int id, Book value)
         {
             Book book = _context.Books.Find(id);
-            book.Status = value.Status;
-            book.Author = value.Author;
-            book.Title = value.Title;
-            book.Description = value.Description;
+            if (book != null)
+            {
+                book.Status = value.Status;
+                book.Author = value.Author;
+                book.Title = value.Title;
+                book.Description = value.Description;
+            }
             _context.SaveChanges();
             return book;
 
@@ -55,7 +58,8 @@ namespace Solid.Data.Repositories
         public Book Delete(int id)
         {
             Book book = _context.Books.Find(id);
-            _context.Books.Remove(book);
+            if (book != null)
+                _context.Books.Remove(book);
             _context.SaveChanges();
             return book;
         }

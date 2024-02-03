@@ -96,3 +96,21 @@ Y:\Groups\Group_1\ברמי  גליה\דוטנט\1.1.24\Library\Solid.Data\bin\De
 Y:\Groups\Group_1\ברמי  גליה\דוטנט\1.1.24\Library\Solid.Data\obj\Debug\net6.0\Solid.Data.csproj.CopyComplete
 Y:\Groups\Group_1\ברמי  גליה\דוטנט\1.1.24\Library\Solid.Data\obj\Debug\net6.0\Solid.Data.genruntimeconfig.cache
 Y:\Groups\Group_1\ברמי  גליה\דוטנט\1.1.24\Library\Solid.Data\obj\Debug\net6.0\ref\Solid.Data.dll
+K:\.Net\23.1\Library\Solid.Data\bin\Debug\net6.0\Solid.Data.deps.json
+K:\.Net\23.1\Library\Solid.Data\bin\Debug\net6.0\Solid.Data.runtimeconfig.json
+K:\.Net\23.1\Library\Solid.Data\bin\Debug\net6.0\Solid.Data.dll
+K:\.Net\23.1\Library\Solid.Data\bin\Debug\net6.0\Solid.Data.pdb
+K:\.Net\23.1\Library\Solid.Data\bin\Debug\net6.0\Solid.Core.dll
+K:\.Net\23.1\Library\Solid.Data\bin\Debug\net6.0\Solid.Core.pdb
+K:\.Net\23.1\Library\Solid.Data\obj\Debug\net6.0\Solid.Data.csproj.AssemblyReference.cache
+K:\.Net\23.1\Library\Solid.Data\obj\Debug\net6.0\Solid.Data.GeneratedMSBuildEditorConfig.editorconfig
+K:\.Net\23.1\Library\Solid.Data\obj\Debug\net6.0\Solid.Data.AssemblyInfoInputs.cache
+K:\.Net\23.1\Library\Solid.Data\obj\Debug\net6.0\Solid.Data.AssemblyInfo.cs
+K:\.Net\23.1\Library\Solid.Data\obj\Debug\net6.0\Solid.Data.csproj.CoreCompileInputs.cache
+K:\.Net\23.1\Library\Solid.Data\obj\Debug\net6.0\Solid.Data.sourcelink.json
+K:\.Net\23.1\Library\Solid.Data\obj\Debug\net6.0\Solid.Data.csproj.CopyComplete
+K:\.Net\23.1\Library\Solid.Data\obj\Debug\net6.0\Solid.Data.dll
+K:\.Net\23.1\Library\Solid.Data\obj\Debug\net6.0\refint\Solid.Data.dll
+K:\.Net\23.1\Library\Solid.Data\obj\Debug\net6.0\Solid.Data.pdb
+K:\.Net\23.1\Library\Solid.Data\obj\Debug\net6.0\Solid.Data.genruntimeconfig.cache
+K:\.Net\23.1\Library\Solid.Data\obj\Debug\net6.0\ref\Solid.Data.dll

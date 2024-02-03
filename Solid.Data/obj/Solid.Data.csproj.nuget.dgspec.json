@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\1.1.24\\Library\\Solid.Data\\Solid.Data.csproj": {}
+    "K:\\.Net\\23.1\\Library\\Solid.Data\\Solid.Data.csproj": {}
   },
   "projects": {
-    "E:\\1.1.24\\Library\\Solid.Core\\Solid.Core.csproj": {
+    "K:\\.Net\\23.1\\Library\\Solid.Core\\Solid.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\1.1.24\\Library\\Solid.Core\\Solid.Core.csproj",
+        "projectUniqueName": "K:\\.Net\\23.1\\Library\\Solid.Core\\Solid.Core.csproj",
         "projectName": "Solid.Core",
-        "projectPath": "E:\\1.1.24\\Library\\Solid.Core\\Solid.Core.csproj",
-        "packagesPath": "C:\\Users\\יונתן\\.nuget\\packages\\",
-        "outputPath": "E:\\1.1.24\\Library\\Solid.Core\\obj\\",
+        "projectPath": "K:\\.Net\\23.1\\Library\\Solid.Core\\Solid.Core.csproj",
+        "packagesPath": "C:\\Users\\משפחת גולדשטיין\\.nuget\\packages\\",
+        "outputPath": "K:\\.Net\\23.1\\Library\\Solid.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\יונתן\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\משפחת גולדשטיין\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,24 +60,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\1.1.24\\Library\\Solid.Data\\Solid.Data.csproj": {
+    "K:\\.Net\\23.1\\Library\\Solid.Data\\Solid.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\1.1.24\\Library\\Solid.Data\\Solid.Data.csproj",
+        "projectUniqueName": "K:\\.Net\\23.1\\Library\\Solid.Data\\Solid.Data.csproj",
         "projectName": "Solid.Data",
-        "projectPath": "E:\\1.1.24\\Library\\Solid.Data\\Solid.Data.csproj",
-        "packagesPath": "C:\\Users\\יונתן\\.nuget\\packages\\",
-        "outputPath": "E:\\1.1.24\\Library\\Solid.Data\\obj\\",
+        "projectPath": "K:\\.Net\\23.1\\Library\\Solid.Data\\Solid.Data.csproj",
+        "packagesPath": "C:\\Users\\משפחת גולדשטיין\\.nuget\\packages\\",
+        "outputPath": "K:\\.Net\\23.1\\Library\\Solid.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\יונתן\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\משפחת גולדשטיין\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -85,14 +86,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\1.1.24\\Library\\Solid.Core\\Solid.Core.csproj": {
-                "projectPath": "E:\\1.1.24\\Library\\Solid.Core\\Solid.Core.csproj"
+              "K:\\.Net\\23.1\\Library\\Solid.Core\\Solid.Core.csproj": {
+                "projectPath": "K:\\.Net\\23.1\\Library\\Solid.Core\\Solid.Core.csproj"
               }
             }
           }
@@ -134,7 +136,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
